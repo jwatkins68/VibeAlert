@@ -9,6 +9,6 @@ The VibeAlert uses four I/O devices - SD Card Reader, HC-SR04 Sonar Sensor, a Sp
 # Figure 1
 ![image](https://github.com/jwatkins68/VibeAlert/assets/152657384/290cd151-852d-4a6a-85d7-632b511bc13f)
 
-<details>
+<Code used for implementation>
   Suprise MF!
 </details>
