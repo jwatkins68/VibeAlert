@@ -7,29 +7,51 @@ Our echo location devices uses the HC-SR04 Sonar Sensor to detect the distance o
 VibeAlert is a device designed to empower and enhance the mobility of visually impaired individuals. It is a compact tool that serves with the purpose of being a reliable companion for navigating the world with confidence and safety.​
 
 <!--- Block Diagram --->
-The VibeAlert uses four I/O devices - SD Card Reader, HC-SR04 Sonar Sensor, a Speaker, and  Grove Vibration Motor. The block diagram of these devices can be seen in Figure 1. We implemented a battarty pack so that the breadboard can be placed into a fanny pack and used while walking.
+The VibeAlert uses five I/O devices - HC-Sonar Ultrasound Sensor, TRSS Breakout, Grove Vibration Motor, SD Card Reader, and a Push button. The block diagram of these devices can be seen in Figure 1. We implemented a portable charger to power the mbed so that the device can be used while walking.
 
-# Figure 1
+### Figure 1 : Block Diagram showing the I/O pin connections
 ![image](https://github.com/jwatkins68/VibeAlert/assets/152657384/290cd151-852d-4a6a-85d7-632b511bc13f)
 
-<details>
-<summary>Parts Information</summary>
-  
-<!--- Insert Code Here --->
-  <details>
-    <summary>HC-SR04 Sonar Sensor</summary>
-    ![image](https://github.com/jwatkins68/VibeAlert/assets/152657384/95a1e81b-39f5-49af-9337-d12ec3f891f1)
+# Parts Information
 
-  </details>
+### HC-Sonar SR04 Ultrasound Sensor
+![image](https://github.com/jwatkins68/VibeAlert/assets/152657384/95a1e81b-39f5-49af-9337-d12ec3f891f1)
+  <summary>Low-cost sonar-based distance sensor​</summary>
+  <summary>Using a 40 kHz ultrasonic ping, the sensor uses soundwaves to echo the   ping off of  objects​</summary>
+  <summary>The delay of the reflected signal to echo is used to measure the         distance​</summary>
+  <summary>Detection range is 3-400cm (0 ft - 13 ft)​</summary>
 
-</details>
+### TRSS Breakout
+![image](https://github.com/jwatkins68/VibeAlert/assets/152657384/75bcc0f0-573f-4a0c-b653-3ae823febb33)
+  <summary>3.5 mm breakout​​</summary>
+  <summary>Used for audio output via headphones for personal use​</summary>
+
+### Grove Vibration Motor
+![image](https://github.com/jwatkins68/VibeAlert/assets/152657384/4b88c30d-3ab9-4906-b8cb-19f612e39a2c)
+  <summary>A high sensitivity non-directional vibration sensor​​​</summary>
+  <summary>The device uses PWM signals - driven high, the output is turned on​</summary>
+  <summary>The sensitivity of the device is adjustable​</summary>
+
+### SD Card Reader
+![image](https://github.com/jwatkins68/VibeAlert/assets/152657384/41afdb64-6c0a-4e1c-97d6-ee5f180a2b4d)
+  <summary>SD Cards are used for storage; phones, mp3 players, pc's etc​​​​</summary>
+  <summary>Store non-volatile data (data is not lost when power is off)</summary>
+  <summary>Ideal for data logging and storing audio/images​​</summary>
+
+### Push Button
+![image](https://github.com/jwatkins68/VibeAlert/assets/152657384/42a35c4f-db99-433f-8e7a-2b8636fffa30)
+  <summary>A low cost SPST normally open pushbutton​​​​​</summary>
+  <summary>Push button includes debouncing with interrupts and a callback function​</summary>
+
+### Figure 2 : VibeAlert on the Breadboard
+![image](https://github.com/jwatkins68/VibeAlert/assets/152657384/2688b92d-f2d0-4106-ba77-67e818cf177a)
+
 
 <details>
 <summary>Code used for implementation</summary>
   
 <!--- Insert Code Here --->
   Suprise MF!
-  
 </details>
 
 
