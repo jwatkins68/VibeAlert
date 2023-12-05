@@ -55,6 +55,8 @@ The VibeAlert uses five I/O devices - HC-Sonar Ultrasound Sensor, TRSS Breakout,
 ### Figure 2 : VibeAlert on the Breadboard
 ![image](https://github.com/jwatkins68/VibeAlert/assets/152657384/2688b92d-f2d0-4106-ba77-67e818cf177a)
 
+<video src= "https://www.kapwing.com/videos/656ec0d39d844954cf88c48a" width = 180>
+
 # Code Used for Implementation
 <!--- Insert Code Here --->
 
