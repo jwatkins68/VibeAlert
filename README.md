@@ -1,5 +1,5 @@
 # VibeAlert
-### ECE 4180 Final Project - Echo Location Device (VibeAlert)
+### ECE 4180 Final Project - Echo Location Device
 
 #### Creators: Davia Mckenzie, Auric Saha, and John Watkins
 
