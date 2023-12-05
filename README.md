@@ -18,7 +18,7 @@ VibeAlert is a device designed to empower and enhance the mobility of visually i
 
 ### Figure 1 : Block Diagram showing the I/O pin connections
 <p align="center">
-<img src = "https://github.com/jwatkins68/VibeAlert/assets/152657384/5bf46c74-90c8-41df-8436-d607766a1469" />
+<img src = "https://github.com/jwatkins68/VibeAlert/assets/152657384/2ebe7f63-29ad-4fb0-9667-5e87564ab80a" />
 
 The VibeAlert uses five I/O devices - HC-Sonar Ultrasound Sensor, TRSS Breakout, Grove Vibration Motor, SD Card Reader, and a Push button. The block diagram of these devices can be seen in Figure 1. We implemented a portable charger to power the mbed so that the device can be used while walking.
 
