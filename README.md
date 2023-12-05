@@ -10,17 +10,16 @@ Our echo location devices uses the HC-SR04 Sonar Sensor to detect the distance o
 <img src = "https://github.com/jwatkins68/VibeAlert/assets/152657384/cd8f4e3f-e454-4707-9c9c-a01db82b4533" />
 
 
-<p align="center">
 VibeAlert is a device designed to empower and enhance the mobility of visually impaired individuals. It is a compact tool that serves with the purpose of being a reliable companion for navigating the world with confidence and safety.​
-</p>
+
 
 
 <!--- Block Diagram --->
-The VibeAlert uses five I/O devices - HC-Sonar Ultrasound Sensor, TRSS Breakout, Grove Vibration Motor, SD Card Reader, and a Push button. The block diagram of these devices can be seen in Figure 1. We implemented a portable charger to power the mbed so that the device can be used while walking.
 
 ### Figure 1 : Block Diagram showing the I/O pin connections
 ![image](https://github.com/jwatkins68/VibeAlert/assets/152657384/d4d04bed-1a7d-460b-9b88-636a6888eb75)
 
+The VibeAlert uses five I/O devices - HC-Sonar Ultrasound Sensor, TRSS Breakout, Grove Vibration Motor, SD Card Reader, and a Push button. The block diagram of these devices can be seen in Figure 1. We implemented a portable charger to power the mbed so that the device can be used while walking.
 
 # Parts Information
 
