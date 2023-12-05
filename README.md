@@ -1,18 +1,26 @@
 # VibeAlert
-ECE 4180 Final Project - Echo Location Device (VibeAlert)
+### ECE 4180 Final Project - Echo Location Device (VibeAlert)
 
+#### Creators: Davia Mckenzie, Auric Saha, and John Watkins
+
+# About VibeAlert
 Our echo location devices uses the HC-SR04 Sonar Sensor to detect the distance of unanimous object in front of the user. When the user enters a specific range away from any object in front of them, the echo location device will sound an alarm sound - using headphones - and alert the user with vibrations – using the grove vibration motor. This device is intended for the hearing impaired. If the user enters a close range to the object in front of them, the alarm sound and vibration will become intense.
 
+<p align="center">
+<img src = "https://github.com/jwatkins68/VibeAlert/assets/152657384/cd8f4e3f-e454-4707-9c9c-a01db82b4533" />
 
-![image](https://github.com/jwatkins68/VibeAlert/assets/152657384/cd8f4e3f-e454-4707-9c9c-a01db82b4533)
 
+<p align="center">
 VibeAlert is a device designed to empower and enhance the mobility of visually impaired individuals. It is a compact tool that serves with the purpose of being a reliable companion for navigating the world with confidence and safety.​
+</p>
+
 
 <!--- Block Diagram --->
 The VibeAlert uses five I/O devices - HC-Sonar Ultrasound Sensor, TRSS Breakout, Grove Vibration Motor, SD Card Reader, and a Push button. The block diagram of these devices can be seen in Figure 1. We implemented a portable charger to power the mbed so that the device can be used while walking.
 
 ### Figure 1 : Block Diagram showing the I/O pin connections
-![image](https://github.com/jwatkins68/VibeAlert/assets/152657384/290cd151-852d-4a6a-85d7-632b511bc13f)
+![image](https://github.com/jwatkins68/VibeAlert/assets/152657384/d4d04bed-1a7d-460b-9b88-636a6888eb75)
+
 
 # Parts Information
 
@@ -48,14 +56,24 @@ The VibeAlert uses five I/O devices - HC-Sonar Ultrasound Sensor, TRSS Breakout,
 ### Figure 2 : VibeAlert on the Breadboard
 ![image](https://github.com/jwatkins68/VibeAlert/assets/152657384/2688b92d-f2d0-4106-ba77-67e818cf177a)
 
+# Code Used for Implementation
+<!--- Insert Code Here --->
 
+
+
+
+
+
+
+<!--- Adding a Dropdown
 <details>
 <summary>Code used for implementation</summary>
   
-<!--- Insert Code Here --->
-  Suprise MF!
-</details>
 
+<!---
+  Suprise MF!
+  --->
+</details>
 
 <!--- Adding a Table 
 
