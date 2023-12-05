@@ -61,7 +61,7 @@ https://github.com/jwatkins68/VibeAlert/assets/152657384/c3ea062f-2153-4024-8d2c
 
 # Code Used for Implementation
 <!--- Insert Code Here --->
-In this section, we will explain portions of the code. The entire code can be downloaded via the main.cpp file. The VibeAlert has a push button to turn on/off the HC-SR04 Ultrasonic Sonar Sensor allowing the user to stand stationary in front of object without the alarm sound and vibration. To incorporate this push button, we implemented a PinDetect and Callback function. 
+In this section, we will explain portions of the code. The entire code can be downloaded via the [main.cpp](https://github.com/jwatkins68/VibeAlert/blob/main/main.cpp) file. The VibeAlert has a push button to turn on/off the HC-SR04 Ultrasonic Sonar Sensor allowing the user to stand stationary in front of object without the alarm sound and vibration. To incorporate this push button, we implemented a PinDetect and Callback function. 
 
 ### PinDect Code
 ```
