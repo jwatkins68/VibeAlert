@@ -61,7 +61,41 @@ https://github.com/jwatkins68/VibeAlert/assets/152657384/c3ea062f-2153-4024-8d2c
 
 # Code Used for Implementation
 <!--- Insert Code Here --->
+The entire code can be downloaded via 
+```
 
+    // Use internal pullups for pushbutton
+    pb.mode(PullUp);    
+    // Delay for initial pullup to take effect
+    wait(.01);
+    // Setup Interrupt callback functions for a pb hit
+    pb.attach_deasserted(&power_on);
+    // Start sampling pb inputs using interrupts
+    pb.setSampleFrequency();
+
+```
+
+```
+
+void power_on(void) {
+    if (power == 0) {
+        power = 1;
+    }
+    else {
+        power = 0;
+    }
+}
+
+```
+
+```
+
+// Helper Functions
+void dist(int distance) {
+    // Convert distance from millimeters to feet
+    global_distance = static_cast<float>(distance) / 1000.0 / 0.3048;
+
+```
 
 
 
