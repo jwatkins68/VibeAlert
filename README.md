@@ -5,6 +5,15 @@
 
 # About VibeAlert
 Our echo location devices uses the HC-SR04 Sonar Sensor to detect the distance of unanimous object in front of the user. When the user enters a specific range away from any object in front of them, the echo location device will sound an alarm sound - using headphones - and alert the user with vibrations – using the grove vibration motor. This device is intended for the hearing impaired. If the user enters a close range to the object in front of them, the alarm sound and vibration will become intense.
+<pre>
+The ranges of the VibeAlert are:
+ <summary>4 – 6ft: vibrates at a steady pace​</summary>
+ <summary>2 – 4ft: vibrates at a faster pace while playing audio​</summary>
+ <summary>0 – 2ft: vibrates even faster while playing audio faster as well​</summary>
+
+Also includes an on/off button which allows the user to turn 
+the alarm/ vibration off when in the proximity of other objects.
+</pre>
 
 <p align="center">
 <img src = "https://github.com/jwatkins68/VibeAlert/assets/152657384/cd8f4e3f-e454-4707-9c9c-a01db82b4533" />
